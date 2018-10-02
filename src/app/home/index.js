@@ -1,3 +1,5 @@
 import Home from './home.component';
 
-export default Home;
+import HomeContainer from './home.container';
+
+export default HomeContainer(Home);
