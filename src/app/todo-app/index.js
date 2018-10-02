@@ -1,5 +1,4 @@
-import ToDoApp from './todo-app.component';
+import TodoApp from './todo-app.component';
+import TodoAppContainer from './todo-app.container';
 
-import ToDoAppContainer from './todo-app.container';   // add
-
-export default ToDoAppContainer(ToDoApp);
+export default TodoAppContainer(TodoApp);
